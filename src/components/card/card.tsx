@@ -15,9 +15,9 @@ export const Card = ({ film }: PropTypes) => {
                 <h2 className={styles.headline}>{film.title}</h2>
                 <div className={styles.desc}>{film.description}</div>
                 <div className={styles.characters}>
-                    <p>CHARACTERS: </p>
+                    <h5>Characterst:</h5>
                     {film.main_characters.map((character) => (
-                        <p key={character}>{` ${character},`}</p>
+                        <p key={character}>{character}</p>
                     ))}
                 </div>
             </div>
