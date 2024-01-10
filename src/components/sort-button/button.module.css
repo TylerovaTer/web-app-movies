@@ -1,8 +1,7 @@
 .field {
     height: 48px;
     position: absolute;
-    top: 24px;
-    left: 24px;
+    bottom: 24px;
     background:linear-gradient(265deg, #ead68a 5.72%, #e7c03f 24.67%, #e8c52a 67.39%);
     padding: 10px 19px;
     border-radius: 24px;
