@@ -1,0 +1,34 @@
+.field {
+    height: 48px;
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    background:linear-gradient(265deg, #ead68a 5.72%, #e7c03f 24.67%, #e8c52a 67.39%);
+    padding: 10px 19px;
+    border-radius: 24px;
+}
+
+.field:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.button {
+    appearance: none;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    border: transparent;
+    border-radius: var(--content-border-radius);
+}
+
+.text{
+    font-family: var(--font-roboto);
+    font-size: 20px;
+    font-weight: 500;
+    color: #803100;
+}
+
+.text:hover {
+    cursor: pointer;
+}
