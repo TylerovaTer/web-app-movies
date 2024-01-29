@@ -1,3 +1,8 @@
+## Zadani aplikace
+- V Listu se zobrazi seznam filmu z url
+- kazdy item bude obsahovat obrazek napr, nazev filmu a cislo epizody
+- pod flatlistem bude tlacitko, ktery pretridi seznam filmu vzestupne/sestupne podle epizod
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
